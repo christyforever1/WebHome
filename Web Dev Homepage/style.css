@@ -1,0 +1,50 @@
+a:hover{
+    border-bottom: 2px solid red;
+}
+
+#home
+{
+    background-color: turquoise;
+    height: 100vh;
+    font-family: 'Josefin Slab', serif;
+
+}
+
+#about
+{
+    background-color: #111;
+    height: 100vh;
+    font-family: 'Josefin Slab', serif;
+    color: #ffff;
+
+}
+#ptag
+{
+    margin-top: 100px;
+    font-size: 20px;
+    text-align:justify;
+}
+#gallery
+{
+    background-color: turquoise;
+    height: 100vh;
+    font-family: 'Josefin Slab', serif;
+
+}
+@media only screen and (max-width: 600px) {
+    #home {
+      background-color: #11111155;
+      height: 100vh;
+    }
+    #himg
+    {
+        width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #hcont
+    {
+        font-size: 33px;
+    }
+  }
